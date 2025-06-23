@@ -1,5 +1,7 @@
 import React from 'react'
-const movies = [
+
+const MovieKey = () => {
+  const movies = [
     {
         id:1,
         title:'iron man'
@@ -13,12 +15,11 @@ const movies = [
         title:'black-panther'
     }
 ]
-const MovieKey = () => {
   return (
     <div>
-      {movies.map((movie)=>{
-        return <h1 key={movie.id}>{movie.title}</h1>
-      })}
+      {movies.map((movie)=>
+         <h1 key={movie.id}>{movie.title}</h1>
+      )}
     </div>
   )
 }

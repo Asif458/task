@@ -59,7 +59,9 @@ const ProfileCard = (props) => {
             
         )
       }} style={{height:'50px', width:'50px'}}>decrease Age</button>
+
       <p>BIO:{bio}</p>
+      
     </div>
   )
 }
