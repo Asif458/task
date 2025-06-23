@@ -1,1 +1,29 @@
- 
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 43px;
+    background-color: grey;
+    height: 70px;
+}
+
+.p{
+    background-color: aqua;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 500px;
+}
+.footer{
+      display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 43px;
+    background-color: rgb(214, 196, 166);
+    height: 50px;
+
+}
